@@ -1,0 +1,19 @@
+{
+  "name": "fsvg",
+  "version": "1.0.0",
+  "description": "Script to tint SVGs in vanilla HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martppa/fsvg.git"
+  },
+  "author": "Humberto Martín",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martppa/fsvg/issues"
+  },
+  "homepage": "https://github.com/martppa/fsvg#readme"
+}
