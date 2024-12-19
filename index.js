@@ -16,7 +16,7 @@ async function replaceWithSvg(imgElement) {
         }
 
         const computedStyle = window.getComputedStyle(imgElement);
-        const imgFillColor = computedStyle.fill || imgElement.getAttribute("svg-fill") || "#000";
+        const imgFillColor = computedStyle.fill || imgElement.getAttribute("fsvg") || "#000";
 
         const elements = svgElement.querySelectorAll("*");
         elements.forEach((el) => {
@@ -38,7 +38,7 @@ async function replaceWithSvg(imgElement) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const imgElements = document.querySelectorAll("div.svg-fill");
+    const imgElements = document.querySelectorAll("div.fsvg");
 
     imgElements.forEach((imgElement) => {
         replaceWithSvg(imgElement);
